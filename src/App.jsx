@@ -24,6 +24,7 @@ function App() {
               <Navbar />
               <main className="flex-1 pt-20"> {/* Adjust pt-20 if your navbar height is ~80px */}
                 <Routes>
+                  {/* Update this route for homepage */}
                   <Route path="/home" element={<Homepage />} />
                   <Route path="/dashboard" element={<Dashboard />} />
                   <Route path="/signup" element={<Signup />} />
