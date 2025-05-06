@@ -1,0 +1,23 @@
+ @tailwind base;
+@tailwind components;
+@tailwind utilities; 
+
+/* Ensure full height layout */
+html, body {
+  height: 100%;
+  margin: 0;
+  padding: 0;
+}
+
+/* Root wrapper needs to be flex column layout */
+#root {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+
+/* Ensure main grows and pushes footer to bottom */
+main {
+  flex: 1;
+  padding-top: 80px; /* if navbar is fixed, give top space */
+}
