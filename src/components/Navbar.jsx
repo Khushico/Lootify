@@ -6,7 +6,7 @@ const Navbar = () => {
     <nav className="navbar">
       <div className="logo">Lootify</div>
       <div className="nav-links">
-        <Link to="/">Earn</Link>
+        <Link to="/home">Earn</Link> {/* Link to /home */}
         <Link to="/dashboard">Cashout</Link>
         <Link to="/rewards">Rewards</Link>
         <Link to="/profilepage">ProfilePage</Link>
